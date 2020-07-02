@@ -1,12 +1,6 @@
 from karel.stanfordkarel import *
 
 """
-File: 2ExtensionKarel.py
------------------------
-This file is for optional extension programs. 
-"""
-
-"""
 Karel moves through holes in columns that are one corner separate, that makes a hall. She pick up the coins (beepers) and put it down
 at the finish line, that function as a scoreboard.
 The finish line is mark in orange with beepers, that Karel also picks.
