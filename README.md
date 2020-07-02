@@ -8,3 +8,7 @@ Completed a 5-week introductory online Python programming course based on materi
 • Development of logical thinking, decomposition, flow control and good code style.
 
 • Projects with karel, images with PIL, Tkinter and databases.
+
+## Beeper Picker
+
+Karel, in any size maze world, pick up all the beepers and put it down in a pink corner, functioning as a scoreboard.
