@@ -13,4 +13,5 @@ Completed a 5-week introductory online Python programming course based on materi
 
 Karel, in any size maze world, pick up all the beepers and put it down in a pink corner, functioning as a scoreboard.
 
-[![SC2 Video](()](https://www.youtube.com/embed/JRAHfXjUEq4?start=2)
+[![4](https://user-images.githubusercontent.com/66931354/86308061-939d0680-bc18-11ea-85f2-095aea3cc7e8.png)
+](https://www.youtube.com/embed/JRAHfXjUEq4?start=2)
