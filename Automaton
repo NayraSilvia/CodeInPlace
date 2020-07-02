@@ -1,25 +1,10 @@
 from karel.stanfordkarel import *
 from random import *
 
-"""
-File: 7ExtensionKarel.py
-"""
 '''
-Karel following Conway's rule 22. The initial state is chose randomly between the simple initial condition(one corner paint in the midpoint of the last street)
+Karel is an automaton following Conway's rule 22. The initial state is chose randomly between the simple initial condition(one corner paint in the midpoint of the last street)
 or multiple painted corners, these are randomly separated.
 Living cells are blue and dead cells are blank.
-
-Rule 22
-7 = LLL = D
-6 = LLD = D
-5 = LDL = D
-4 = LDD = B
-3 = DLL = D
-2 = DLD = B
-1 = DDL = B
-0 = DDD = D
-
-D = dead, L = alive, B = born
 '''
 
 def main():
@@ -217,29 +202,37 @@ def check_1_to_0():
     else:
         state_0()
 
-# It depends on the state that it is born a new cell or not in the right corner of the central clump of the trio.
+# It depends on the state that it is born a new cell or not in the right corner of the central clump of the trio. D = dead, L = alive, B = born
 
+# 7 = LLL = D
 def state_7():
     dead()
 
+# 6 = LLD = D
 def state_6():
     dead()
-
+    
+# 5 = LDL = D
 def state_5():
     dead()
 
+# 4 = LDD = B
 def state_4():
     born()
 
+# 3 = DLL = D
 def state_3():
     dead()
 
+# 2 = DLD = B
 def state_2():
     born()
 
+# 1 = DDL = B
 def state_1():
     born()
 
+# 0 = DDD = D
 def state_0():
     dead()
 
