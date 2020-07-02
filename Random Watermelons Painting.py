@@ -1,10 +1,5 @@
 from karel.stanfordkarel import *
 from random import *
-"""
-File: 6ExtensionKarel.py
------------------------
-This file is for optional extension programs. 
-"""
 
 """
 Karel moves in the world searching black corners. When she finds one, she paints a watermelon
@@ -12,7 +7,7 @@ She paints randomly black corners at the beginning. Those must be separated by a
 She finally paints all watermelons.
 Karel's initial position is (1,1) and faces east.
 
-Models world for this are 6ExtensionKarel and 6ExtensionKarel1. 6ExtensionKarel2 has already black corners, that makes 
+Models world for this ExtensionKarel and ExtensionKarel1.  ExtensionKarel2 has already black corners, that makes 
 overlapping watermelon pattern.
 """
 
