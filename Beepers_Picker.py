@@ -1,12 +1,6 @@
 from karel.stanfordkarel import *
 
 """
-File: ExtensionKarel.py
------------------------
-This file is for optional extension programs. 
-"""
-
-"""
 Karel in any size maze world, pick up the coins (beepers) and put it down in a pink corner, functioning as a scoreboard.
 Models of this worlds are ExtensionKarel , ExtensionKarel1 , ExtensionKarel2 , ExtensionKarel3 and ExtensionKarel4 .
 
