@@ -24,3 +24,10 @@ The finish line is mark in orange with beepers, that Karel can also pick.
 The coins are just at the holes. Holes are 1*1.
 
 Inspired in [Flappy Bird Game](https://flappybird.io/)
+
+# Watermelons painter
+
+Karel moves in the world searching black corners. When she finds one, she paints a watermelon if it is separated at least 16 corners in width and 9 in height.
+She paints randomly black corners at the beginning to mark possible locations, then paints all watermelons.
+
+Karel's initial position is (1,1) and faces east.
