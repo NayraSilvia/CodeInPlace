@@ -15,3 +15,12 @@ Karel, in any size maze world, pick up all the beepers and put it down in a pink
 
 [![4](https://user-images.githubusercontent.com/66931354/86308061-939d0680-bc18-11ea-85f2-095aea3cc7e8.png)
 ](https://www.youtube.com/embed/JRAHfXjUEq4?start=2)
+
+# Vertical Maze
+
+Karel moves through holes in columns that are one corner separate, that makes a hall. She pick up the coins (beepers) and put it down at the finish line, that function as a scoreboard.
+
+The finish line is mark in orange with beepers, that Karel can also pick.
+The coins are just at the holes. Holes are 1*1.
+
+Inspired in [Flappy Bird Game](https://flappybird.io/)
