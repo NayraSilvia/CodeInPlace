@@ -9,7 +9,7 @@ Completed a 5-week introductory online Python programming course based on materi
 
 • Projects with karel, images with PIL, Tkinter and databases.
 
-# Beeper Picker
+# Beeper Picker - Maze Solver
 
 Karel, in any size maze world, pick up all the beepers and put it down in a pink corner, functioning as a scoreboard.
 
@@ -31,3 +31,7 @@ Karel moves in the world searching black corners. When she finds one, she paints
 She paints randomly black corners at the beginning to mark possible locations, then paints all watermelons.
 
 Karel's initial position is (1,1) and faces east.
+
+# Automaton Conway's rule 22
+
+Karel is an automaton following Conway's rule 22. The initial state is chose randomly between the simple initial condition(one corner paint in the midpoint of the last street) or multiple painted corners, these are randomly separated.
